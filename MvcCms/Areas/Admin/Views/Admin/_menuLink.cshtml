@@ -1,0 +1,14 @@
+﻿@model MvcCms.Areas.Admin.ViewModels.AdminMenuItem
+
+<li>
+    <a href="@Url.Action(Model.Action,Model.RouteInfo)">
+        <i class="@Model.Icon" aria-hidden="true"></i>
+        <span class="nav-text">
+            @Model.Text
+        </span>
+    </a>
+</li>
+@*<li>
+    @Html.ActionLink(Model.Text, Model.Action, Model.RouteInfo)
+</li>*@
+

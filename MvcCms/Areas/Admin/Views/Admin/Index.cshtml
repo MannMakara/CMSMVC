@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_DashBoardLayout.cshtml";
+}
+
+<div class="social grid">
+    <div class="grid-info">
+        <div class="col-md-12">
+            <h2>Welcome to Restaurant Dashboard</h2>
+            <p style="color: #72777c; font-size: 16px;">We’ve assembled some links to get you started:</p>
+            <br />
+            <div class="col-md-8 top-comment-grid">
+                <h3 style="margin-bottom: 10px;">Get Started</h3>
+                <p style="margin-bottom: 10px;"><a href="#"><i class="fa fa-edit nav-icon" aria-hidden="true"></i> Edit your front page</a></p>
+                <p style="margin-bottom: 10px;"><a href="#"><i class="fa fa-plus nav-icon" aria-hidden="true"></i> Add additional pages</a></p>
+                <p style="margin-bottom: 10px;"><a href="@Url.Action("index", "home", new { area = "" })"><i class="fa fa-eye nav-icon" aria-hidden="true"></i> View your site</a></p>
+            </div>
+            <div class="col-md-8 top-comment-grid">
+                <h3 style="margin-bottom: 10px;">Next Steps</h3>
+                <p><a href="#"><i class="fa fa-bars nav-icon" aria-hidden="true"></i> Manage Menus</a></p>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+
+<div class="agile-grids">
+    <div class="col-md-4 charts-right">
+        <!-- area-chart -->
+        <div class="area-grids">
+            <div class="area-grids-heading">
+                <h3>At a Glance</h3>
+                <p>
+                    <a href="#" style="margin-right:40px;"><i class="fa fa-thumb-tack nav-icon" aria-hidden="true"></i> 4 Posts</a> |
+                    <a href="#" style="margin-left:40px;"><i class="fa fa-file nav-icon" aria-hidden="true"></i> 4 Pages</a>
+                </p>
+
+            </div>
+
+        </div>
+        <!-- //area-chart -->
+    </div>
+    <div class="clearfix"> </div>
+</div>

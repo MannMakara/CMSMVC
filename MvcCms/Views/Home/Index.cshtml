@@ -1,0 +1,659 @@
+﻿@model IEnumerable<MvcCms.Models.Post>
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+
+    ViewBag.IsIndex = true;
+}
+
+@*<h2>Don't have any post</h2>
+
+    @Html.Raw(string.Join("<hr/>", Model.Select(p => Html.Partial("_renderPost", p))))
+
+    @if (ViewBag.PreviousPage > 0)
+    {
+        @Html.ActionLink("Previous Page", "page", new { controller = "home", page = ViewBag.PreviousPage })
+    }
+
+    &nbsp;
+
+    @if (ViewBag.NextPage > -1)
+    {
+        @Html.ActionLink("Next Page", "page", new { controller = "home", page = ViewBag.NextPage })
+    }*@
+
+@*-------New Template-------------------*@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+
+<!-- Mirrored from demos.templatemela.com/virtuemart/VTM05/VTM050106/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Mar 2017 01:09:59 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/jquery.js"></script>
+    <script type="text/javascript">jQuery.noConflict();</script>
+
+    <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css' />
+    <!--
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Dosis:200,300,400,500,600,700,800|Abel|Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Lora:400,700,400italic,700italic|PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|Quicksand:300,400,700|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Lobster|Ubuntu+Condensed|Oxygen:400,300,700|Oswald:700,400,300|Open+Sans+Condensed:300,700,300italic|Roboto+Condensed:300italic,400italic,700italic,400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,800,700,400,600,300|Prosto+One|Francois+One|Comfortaa:700,300,400|Raleway:300,600,900,500,400,100,800,200,700|Roboto:300,700,500italic,900,300italic,400italic,900italic,100italic,100,500,400,700italic|Roboto+Slab:300,700,100,400|Share:700,700italic,400italic,400' rel='stylesheet' type='text/css'>
+    -->
+    <base />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Joomla! - Open Source Content Management" />
+    <title>Home</title>
+    <link href="indexc0d0.html?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+    <link href="index7b17.html?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+    <link href="templates/vtm050106/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/megnor/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/vm-ltr-common.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/vm-ltr-site.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/vm-ltr-reviews.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/components/com_virtuemart/assets/css/jquery.fancybox-1.3.40f38.css?vmver=8847"
+          type="text/css" />
+    <link rel="stylesheet" href="~/themes/components/com_virtuemart/assets/css/chosen0f38.css?vmver=8847" type="text/css" />
+    <script src="~/themes/media/jui/js/jquery.min.js" type="text/javascript"></script>
+    <script src="~/themes/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+    <script src="~/themes/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="~/themes/media/system/js/caption.js" type="text/javascript"></script>
+    <script src="~/themes/templates/vtm050106/javascript/custom.js" type="text/javascript"></script>
+    <script src="~/themes/templates/vtm050106/javascript/circle-progress.js" type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/jquery-ui.min0f38.js?vmver=8847" type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/jquery.ui.autocomplete.html0f38.js?vmver=8847"
+            type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/jquery.noconflict0f38.js?vmver=8847" type="text/javascript"
+            async="async"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/vmsite0f38.js?vmver=8847" type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/fancybox/jquery.fancybox-1.3.4.pack0f38.js?vmver=8847"
+            type="text/javascript" defer="defer"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/vmprices0f38.js?vmver=8847" type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/chosen.jquery.min0f38.js?vmver=8847"
+            type="text/javascript"></script>
+    <script src="~/themes/components/com_virtuemart/assets/js/dynupdate0f38.js?vmver=8847" type="text/javascript"></script>
+    <script src="~/themes/modules/mod_virtuemart_cart/assets/js/update_cart0f38.js?vmver=8847" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(window).on('load', function () {
+            new JCaption('img.caption');
+        });
+
+        //<![CDATA[
+
+        //]]>
+
+    </script>
+
+
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/megnor/flexslider.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/megnor/carousel.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/megnor/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="~/themes/templates/vtm050106/css/megnor/responsive.css" type="text/css" />
+
+
+    <script type="text/javascript"></script>
+    <!--[if IE 7]>
+    <link type="text/css" rel="stylesheet" href="/virtuemart/VTM05/VTM050106/templates/vtm050106/css/style_ie7.css"/>
+    <![endif]-->
+    <!--[if IE 8]>
+    <link type="text/css" rel="stylesheet" href="/virtuemart/VTM05/VTM050106/templates/vtm050106/css/style_ie8.css"/>
+    <![endif]-->
+    <!--[if IE 9]>
+    <link type="text/css" rel="stylesheet" href="/virtuemart/VTM05/VTM050106/templates/vtm050106/css/style_ie9.css"/>
+    <![endif]-->
+
+
+</head>
+<body>
+    <div class="header">
+        <div id="header">
+            <div class="header-top">
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="moduletable_currency">
+
+                                <!-- Currency Selector Module -->
+                                <div class="currency">
+
+                                    <form action="http://demos.templatemela.com/virtuemart/VTM05/VTM050106/index.php"
+                                          method="post">
+
+                                        <select id="virtuemart_currency_id" name="virtuemart_currency_id"
+                                                class="inputbox vm-chzn-select" onchange="this.form.submit()">
+                                            <option value="52">British pound &pound;</option>
+                                            <option value="26">Canadian dollar $</option>
+                                            <option value="47" selected="selected">Euro &euro;</option>
+                                            <option value="144">United States dollar $</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-lower">
+                <div class="container">
+                    <div class="row">
+                        <div class=" logo-content ol-lg-5 col-md-5 col-sm-6 col-xs-12">
+                            <div id="logo">
+
+                                <a href="@Url.Action("index","home")">
+                                    <img src="~/themes/images/logo.jpg" alt="Logo" />
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="headeright col-lg-7 col-md-6 col-sm-6 col-xs-12">
+                            <div class="moduletable_headercart">
+
+                                <!-- Virtuemart 2 Ajax Card -->
+                                <div class="vmCartModule _headercart" id="vmCartModule">
+                                    <div class="cart_block">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <div class="total_products"> Cart empty</div>
+                                    </div>
+                                    <div class="cart-content">
+
+                                        <div id="hiddencontainer" style=" display none; ">
+                                            <div class="vmcontainer">
+                                                <div class="product_row">
+                                                    <span class="quantity"></span>&nbsp;x&nbsp;<span class="product_name"></span>
+
+                                                    <div class="subtotal_with_tax" style="float: right;"></div>
+                                                    <div class="customProductData"></div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vm_cart_products">
+                                            <div class="vmcontainer">
+
+                                                Cart empty
+                                            </div>
+                                        </div>
+
+                                        <div class="total" style="float: right;">
+                                        </div>
+
+                                        <div class="show_cart">
+                                        </div>
+                                    </div>
+
+                                    <div style="clear:both;"></div>
+                                    <div class="payments_signin_button"></div>
+                                    <noscript>
+                                        Please wait
+                                    </noscript>
+                                </div>
+
+
+                                <script id="vm.CartModule.UpdateModule_js" type="text/javascript">
+//<![CDATA[
+                            jQuery(document).ready(function () {
+                                jQuery("body").live("updateVirtueMartCartModule", function (e) {
+                                    jQuery("#vmCartModule").updateVirtueMartCartModule();
+                                });
+                            }); //]]>
+                                </script>
+                            </div>
+                            <div class="moduletable_headersearch">
+                                <!--BEGIN Search Box -->
+                                <form action="http://demos.templatemela.com/virtuemart/VTM05/VTM050106/index.php/my-store/search"
+                                      method="get">
+                                    <div class="search_headersearch">
+                                        <div class="search-bg">
+                                            <input name="keyword" id="mod_virtuemart_search" maxlength="22" alt="Search"
+                                                   class="inputbox_headersearch" type="text" size="22" value="Search..."
+                                                   onblur="if(this.value=='') this.value='Search...';"
+                                                   onfocus="if(this.value=='Search...') this.value='';" /><input type="submit" value="Search" class="button_headersearch"
+                                                                                                                 onclick="this.form.keyword.focus();" />
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="limitstart" value="0" />
+                                    <input type="hidden" name="option" value="com_virtuemart" />
+                                    <input type="hidden" name="view" value="category" />
+                                    <input type="hidden" name="virtuemart_category_id" value="0" />
+
+                                </form>
+
+                                <!-- End Search Box -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=" outer-menu col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="container">
+                    <div class="navigation">
+                        <div class="row">
+                            <div class="main_menu">
+                                <nav id="site-navigation-main" class="navbar" role="navigation">
+                                    <div class="navbar-header">
+                                        <div class="navbar-toggle">
+                                            Menu <i class="fa fa-bars"></i>
+                                        </div>
+                                    </div>
+                                    <div id="main-navbar-collapse" class="navbar-collapse">
+                                        <div class="moduletable">
+
+                                            <div id="menu" class="dmenu">
+
+                                                <ul class="main-navigation menu clearfix">
+
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/couscous.html">Couscous</a>
+                                                        </div>
+                                                        <ul class="menu">
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/couscous/cheese.html">Cheese</a>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/couscous/olives.html">olives</a>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/couscous/wine.html">wine</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/deli.html">Deli</a>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/fruits.html">Fruits</a>
+                                                        </div>
+                                                        <ul class="menu">
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/fruits/pineapples.html">Pineapples</a>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/fruits/lycheeses.html">Lycheeses</a>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div>
+                                                                    <a href="index.php/my-store/fruits/lemons.html">Lemons</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/polenta.html">Polenta</a>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/rice%2cgrains-pasta.html">
+                                                                Rice,Grains
+                                                                & Pasta
+                                                            </a>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <div>
+                                                            <a href="index.php/my-store/vegitables.html">Vegitables</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </nav><!-- #site-navigation -->
+                            </div>
+
+                            <div class="MainmenuBottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="header-links">
+                                    <div class="moduletable_leftmenu">
+                                        <ul class="nav navbar-nav menu">
+                                            <li class="item-122"><a href="@Url.Action("index","home")">Home</a></li>
+                                            @{
+                                                Html.RenderAction("AuthenticationLink", new { controller = "admin", area = "admin" });
+                                            }
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div> <!--id header-->
+    </div> <!--class header-->
+
+    <div id="wrapper" class="container">
+        <div class="inner-main">
+            <div class="subinner-main">
+                <div class="row">
+
+                    <div class="slr col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <div class="moduletable_slider">
+                            <div class="bannergroup_slider">
+
+                                <script type="text/javascript">
+                                jQuery(window).load(function () {
+                                    jQuery('.flexslider').flexslider({
+                                        animation: "fade",
+                                    });
+                                });
+                                </script>
+
+
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="~/themes/images/banners/mainbanner-1.jpg"
+                                                 alt="Mainbanner1" />
+                                        </li>
+
+                                        <li>
+                                            <img src="~/themes/images/banners/mainbanner-2.jpg"
+                                                 alt="Mainbanner2" />
+                                        </li>
+
+                                        <li>
+                                            <img src="~/themes/images/banners/mainbanner-3.jpg"
+                                                 alt="Mainbanner3" />
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="subbanner">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="banners_groups">
+                                <div class="moduletable_topbanner">
+                                    <div class="bannergroup_topbanner">
+
+
+                                        <div class="banneritem">
+                                            <a href="http://www.templatemela.com/" target="_blank"
+                                               title="Topbanner1">
+                                                <img src="~/themes/images/banners/top-banner-1.jpg"
+                                                     alt="Topbanner1" />
+                                            </a>
+                                            <div class="clr"></div>
+                                        </div>
+                                        <div class="banneritem">
+                                            <a href="http://www.templatemela.com/" target="_blank"
+                                               title="Topbanner2">
+                                                <img src="~/themes/images/banners/top-banner-2.jpg"
+                                                     alt="Topbanner2" />
+                                            </a>
+                                            <div class="clr"></div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="globalContent">
+
+                    <div class="row">
+                        <div class="sidebar-left col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="moduletable_category">
+                                <h3>Categories</h3>
+
+                                <ul class="toggle VMmenu" id="VMmenu53_28701">
+
+                                    <li class="VmClose">
+                                        <div>
+                                            <a href="index.php/my-store/couscous.html">Couscous</a>
+                                        </div>
+                                        <ul class="menu">
+                                            <li class="VmClose">
+                                            <li>
+                                                <div><a href="index.php/my-store/couscous/cheese.html">Cheese</a></div>
+                                            </li>
+                                            <li class="VmClose">
+                                            <li>
+                                                <div><a href="index.php/my-store/couscous/olives.html">olives</a></div>
+                                            </li>
+                                            <li class="VmClose">
+                                            <li>
+                                                <div><a href="index.php/my-store/couscous/wine.html">wine</a></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div id="contentBox" class="col-lg-9 col-md-9 col-sm-12 col-xs-12 leftside">
+                            <div class="center-column">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hi">
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <div id="system-message-container">
+                                    </div>
+                                </div>
+                                <div id="component">
+                                    <div class="blog-featured" itemscope itemtype="http://schema.org/Blog">
+
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="pos2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="moduletable">
+                                            <h3>Featured products</h3>
+
+
+                                            <script id="jsVars_js" type="text/javascript">
+//<![CDATA[
+                                        vmSiteurl = 'index.html';
+                                        vmLang = "";
+                                        Virtuemart.addtocart_popup = '1';
+                                        usefancy = true; //]]>
+                                            </script>
+
+                                            <script id="ready.vmprices_js" type="text/javascript">
+//<![CDATA[
+                                        jQuery(document).ready(function ($) {
+                                            Virtuemart.product(jQuery("form.product"));
+
+                                            /*$("form.js-recalculate").each(function(){
+                                             if ($(this).find(".product-fields").length && !$(this).find(".no-vm-bind").length) {
+                                             var id= $(this).find('input[name="virtuemart_product_id[]"]').val();
+                                             Virtuemart.setproducttype($(this),id);
+
+                                             }
+                                             });*/
+                                        }); //]]>
+                                            </script>
+
+
+                                            <div class="vmgroup">
+
+                                                <div id="featured-products_block_center"
+                                                     class="block products_block clearfix">
+                                                    <div class="customNavigation">
+                                                        <a class="btn prev">&nbsp;</a>
+                                                        <a class="btn next">&nbsp;</a>
+                                                    </div>
+
+                                                    <div id="featured-carousel" class="product-carousel">
+                                                        @Html.Raw(string.Join("", Model.Select(p => Html.Partial("_renderPost", p))))
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <span class="featured_default_width"
+                                                  style="display:none; visibility:hidden"></span>
+
+                                            <script id="updDynamicListeners_js" type="text/javascript">
+//<![CDATA[
+                                        jQuery(document).ready(function () { // GALT: Start listening for dynamic content update.
+                                            // If template is aware of dynamic update and provided a variable let's
+                                            // set-up the event listeners.
+                                            if (Virtuemart.container)
+                                                Virtuemart.updateDynamicUpdateListeners();
+
+                                        }); //]]>
+                                            </script>
+                                            <script id="updateChosen_js" type="text/javascript">
+//<![CDATA[
+                                        if (typeof Virtuemart === "undefined")
+                                            var Virtuemart = {};
+                                        Virtuemart.updateChosenDropdownLayout = function () {
+                                            var vm2string = {
+                                                editImage: 'edit image',
+                                                select_all_text: 'Select all',
+                                                select_some_options_text: 'Available for all'
+                                            };
+                                            jQuery(function ($) {
+                                                jQuery(".vm-chzn-select").chosen({
+                                                    enable_select_all: true,
+                                                    select_all_text: vm2string.select_all_text,
+                                                    select_some_options_text: vm2string.select_some_options_text,
+                                                    disable_search_threshold: 5
+                                                });
+                                            });
+                                        }
+                                        Virtuemart.updateChosenDropdownLayout(); //]]>
+                                            </script>
+                                            <script id="vm.countryState_js" type="text/javascript">
+ //<![CDATA[
+                                        jQuery(function ($) {
+                                            $("#virtuemart_country_id").vm2front("list", {
+                                                dest: "#virtuemart_state_id",
+                                                ids: "",
+                                                prefiks: ""
+                                            });
+                                        });
+                                        //]]> </script>
+                                            <script id="vm.countryStateshipto__js" type="text/javascript">
+ //<![CDATA[
+                                        jQuery(function ($) {
+                                            $("#shipto_virtuemart_country_id").vm2front("list", {
+                                                dest: "#shipto_virtuemart_state_id",
+                                                ids: "",
+                                                prefiks: "shipto_"
+                                            });
+                                        });
+                                        //]]> </script>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> <!--globalContent-->
+
+
+
+
+
+            </div> <!--subinner-main-->
+        </div> <!--inner-main-->
+    </div> <!--wrapper-->
+
+    <div class="footer">
+        <div id="footer">
+        
+        </div>
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="moduletable_leftmenu">
+                            <ul class="nav navbar-nav menu">
+                                <li class="item-122"><a href="">Home</a></li>
+                                @{
+                                    Html.RenderAction("AuthenticationLink", new { controller = "admin", area = "admin" });
+                                }
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="moduletable">
+                            <div class="footer1">Copyright &#169; 2017 Demo Store. All Rights Reserved.</div>
+                            <div class="footer2">
+                                <a href="http://www.joomla.org/">Joomla!</a> is Free Software released
+                                under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="scrollup" style="display: none;">Scroll</a>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/megnor.min.js"></script>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/carousel.min.js"></script>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/jstree.min.js"></script>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/custom.js"></script>
+        <script type="text/javascript" src="~/themes/templates/vtm050106/javascript/megnor/jquery.easytabs.js"></script>
+
+    </div>
+</body>
+
+<!-- Mirrored from demos.templatemela.com/virtuemart/VTM05/VTM050106/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Mar 2017 01:10:02 GMT -->
+</html>
+

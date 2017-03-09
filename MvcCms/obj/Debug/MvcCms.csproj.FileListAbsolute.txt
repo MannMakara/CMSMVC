@@ -1,0 +1,178 @@
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.dll.config
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\MvcCms.pdb
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Helpers.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Mvc.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Razor.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Razor.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Webpages.Razor.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Helpers.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\System.Web.Mvc.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.SqlServer.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Newtonsoft.Json.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Owin.dll
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\EntityFramework.SqlServer.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jeremy McPeak\Documents\Visual Studio 2013\Projects\MvcCms\MvcCms\bin\Newtonsoft.Json.xml
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jeremy McPeak\documents\visual studio 2013\Projects\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.dll.config
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\MvcCms.pdb
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\CKEditor.NET.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.SqlServer.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Web.Infrastructure.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Newtonsoft.Json.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Owin.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Helpers.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Mvc.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Razor.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.Deployment.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.Razor.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\CKEditor.NET.pdb
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\EntityFramework.SqlServer.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\Newtonsoft.Json.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Helpers.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Mvc.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.Razor.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.Deployment.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\bin\System.Web.WebPages.Razor.xml
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.Migrations.Image.resources
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.Migrations.ImageUrl.resources
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.dll
+D:\IT Year 4 2016-2017\Web Application\CMS TutPlus\Building-a-CMS-With-ASP.NET-MVC5-master\9.2\MvcCms\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.dll.config
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.SqlServer.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Newtonsoft.Json.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Owin.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Helpers.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Mvc.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Razor.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Razor.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\EntityFramework.SqlServer.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\Newtonsoft.Json.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Helpers.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Mvc.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.Razor.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\bin\System.Web.WebPages.Razor.xml
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.Migrations.Image.resources
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.Migrations.ImageUrl.resources
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.dll
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.pdb
+C:\Users\Soeng Saravit\Desktop\MVCRestaurant\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\MvcCms.dll.config
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\MvcCms.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\MvcCms.pdb
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\EntityFramework.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\EntityFramework.SqlServer.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Newtonsoft.Json.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Owin.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Helpers.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Mvc.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Razor.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.Razor.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\CKEditor.NET.pdb
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\EntityFramework.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\EntityFramework.SqlServer.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\Newtonsoft.Json.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Helpers.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Mvc.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.Razor.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\bin\System.Web.WebPages.Razor.xml
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.csprojResolveAssemblyReference.cache
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.Migrations.Image.resources
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.Migrations.ImageUrl.resources
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.csproj.GenerateResource.Cache
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.dll
+C:\Users\manma\Desktop\MvcCms\MvcCms\obj\Debug\MvcCms.pdb

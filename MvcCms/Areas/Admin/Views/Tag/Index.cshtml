@@ -1,0 +1,69 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_DashBoardLayout.cshtml";
+}
+
+<ul class="bt-list" style="width:50%">
+    <li><h2>Tags</h2></li>
+</ul>
+
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        @AntiForgery.GetHtml()
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Tag Name
+                    </th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { tag = item })
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete", "Delete", new { tag = item }, new { data_action = "delete", data_value = item })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@*<h2>Index</h2>
+@AntiForgery.GetHtml()
+
+
+<table class="table">
+    <tr>
+        <th>
+            Tag Name
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item
+        </td>
+      
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { tag=item }) |
+            @Html.ActionLink("Delete", "Delete", new { tag = item }, new { data_action = "delete", data_value = item })
+        </td>
+    </tr>
+}
+
+</table>*@

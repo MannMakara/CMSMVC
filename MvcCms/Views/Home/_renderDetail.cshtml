@@ -1,0 +1,94 @@
+﻿@model MvcCms.Models.Post
+
+@*<div class="col-lg-12">
+    <div class="media">
+        @if (ViewBag.IsIndex)
+        {
+            <h3 class="media-heading text-primary-theme">
+                @Html.ActionLink(Model.Title, "post", new { controller = "home", postId = Model.Id })
+            </h3>
+        }
+        else
+        {
+            <h3 class="media-heading text-primary-theme">
+                @Model.Title
+            </h3>
+        }
+        <a href="menu/"><img src="~/themes/assets/images/nepali-momo.png" alt="nepali-momo"> </a>
+        <h3 class="media-heading text-primary-theme">NEPALESE LAMB MOMO</h3>
+        <p>@Html.Raw(Model.Content)</p>
+    </div>
+</div>*@
+
+<div id="component">
+
+    <div class="productdetails-view productdetails">
+        <div class="product-neighbours">
+            <a href="" class="previous-page"> previous-page </a><a href="" class="next-page">next-page</a>
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="vm-product-container">
+            <div class="vm-product-details-container">
+                <div class="spacer-buy-area">
+                    <h1>@Model.Title</h1>
+
+                </div>
+                <div class="clear"></div>
+                <span class="grid_default_width"
+                      style="display:none; visibility:hidden"></span>
+                <div class="manufaturer-block">
+                    <br />
+                    <strong class="title-text">
+                        Post By :
+                    </strong>
+                    <div class="manufacturer">
+                        @Model.Author.DisplayName
+                    </div>
+                    <strong class="title-text">
+                        Category :
+                    </strong>
+                    <div class="manufacturer">
+                        @Html.Partial("_renderTags", Model.Tags)
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+    <div id="tab-container" class='tab-container'>
+        <ul class='etabs'>
+            <li class='tab'><a href="#tabs1">Description</a></li>
+        </ul>
+        <div class='panel-container'>
+            <div id="tabs1">
+                <div class="product-description">
+                    <span class="title">Description</span>
+                    @Html.Raw(Model.Content)
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="grid_default_width" style="display:none; visibility:hidden"></span>
+
+
+</div>
+
+@*@if (ViewBag.IsIndex)
+    {
+        <h2>@Html.ActionLink(Model.Title, "post", new {controller = "home", postId = Model.Id })</h2>
+    }
+    else
+    {
+        <h2>@Model.Title</h2>
+    }
+
+    <p>@Html.Raw(Model.Content)</p>
+    <p>By: @Model.Author.DisplayName</p>
+    <p>Tags: @Html.Partial("_renderTags", Model.Tags)</p>*@
+
+
